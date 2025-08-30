@@ -4,7 +4,7 @@ export const siteConfig = {
   description: "Portfolio website of SANJAY KM",
   accentColor: "#1d4ed8",
   social: {
-    email: "sanjay_k.m@outlook.com",
+    email: "sanjay@sanjaykm.com",
     linkedin: "https://linkedin.com/in/sanjay-k-m",
     twitter: "https://x.com/_sanjay_km",
     github: "https://github.com/sanjay-k-m",
@@ -144,7 +144,7 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "Mangalore University",
+      school: "St Aloysius Institute of Management & Information Technology (AIMIT)",
       degree: "Master of Computer Applications",
       dateRange: "2022 - 2024",
       achievements: [
