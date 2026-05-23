@@ -1,0 +1,35 @@
+# Sanjay Km - Full Stack Developer & Sanjay Flow Platform
+
+Information about the professional portfolio of Sanjay Km and the Sanjay Flow Meta Application.
+
+## Professional Profile
+- **Name:** Sanjay Km
+- **Role:** Full Stack Developer, Freelancer, Automation Services Provider
+- **Location:** Kozhikode, Kochi, Kerala, India, Bangalore
+- **Contact Email:** contact@sanjaykm.com
+- **Contact Phone:** +91 8547863419
+- **Main Website:** https://www.sanjaykm.com
+- **LinkedIn:** https://linkedin.com/in/sanjay-k-m
+- **GitHub:** https://github.com/sanjay-k-m
+- **Twitter:** https://x.com/_sanjay_km
+
+## Skills & Stack
+- **Languages:** JavaScript, TypeScript, Python
+- **Frontend Frameworks:** React.js, Next.js, Vite, Tailwind CSS, Material UI, ShadCN UI
+- **Backend & APIs:** Node.js, Express.js, Django, FastAPI, REST APIs, WebSockets
+- **Databases & Cloud Storage:** MongoDB, PostgreSQL, Firebase, AWS S3
+- **DevOps & Infrastructure:** Jenkins, n8n, Docker, AWS (EC2, S3), Nginx, Linux, Git, Postman, CI/CD pipelines
+- **Specialized Systems:** Meta WhatsApp Business API (Sanjay Flow), Biometric Authentication, Active Directory, workflow automation
+
+## Meta Application: Sanjay Flow
+- **Description:** A cloud-based WhatsApp Business API and WhatsApp Flows integration platform.
+- **Developer:** Sanjay Km
+- **Compliance Link:** https://www.sanjaykm.com/privacy-policy
+- **Features:** Custom message routing, interactive forms (WhatsApp Flows), webhook handlers, backend automation pipelines.
+
+## Project Portfolios
+- **PoshWatch:** Bespoke, high-performance luxury product catalog developed for a premium retailer in Kochi (https://www.poshwatch.in). Focused on a sophisticated minimalist interface to showcase watches and accessories.
+- **Trade Fusion Corporate Website:** UAE-based trading company site. Built with Bootstrap and Firebase Firestore/Storage. Includes a category/product admin panel.
+- **Zylera Ecommerce:** Scalable ecommerce platform built with Next.js, Zustand, Tailwind CSS, and Sanity CMS. Integrated with Razorpay.
+- **HRMS Platform:** Employee management dashboard built with MERN stack and Electron.js for Domain Enroll. Incorporates attendance tracking, biometrics, and RBAC security.
+- **Realtime Chat App:** Full-stack MERN WebSocket application with persistent chat history.

@@ -17,6 +17,22 @@ import "../styles/global.css";
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={siteConfig.description} />
+    <meta name="keywords" content="Full Stack Developer, Freelance Developer Kochi, Web Developer Kerala, React Next.js Developer Calicut, Django FastAPI Developer, WhatsApp Cloud API, WhatsApp Flows integration, Sanjay Flow, Jenkins DevOps automation, AWS cloud deployments" />
+    <link rel="canonical" href="https://www.sanjaykm.com/" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.sanjaykm.com/" />
+    <meta property="og:title" content={`${siteConfig.name} - ${siteConfig.title}`} />
+    <meta property="og:description" content={siteConfig.description} />
+    <meta property="og:site_name" content="Sanjay Km Portfolio" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.sanjaykm.com/" />
+    <meta property="twitter:title" content={`${siteConfig.name} - ${siteConfig.title}`} />
+    <meta property="twitter:description" content={siteConfig.description} />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,6 +40,50 @@ import "../styles/global.css";
       rel="stylesheet"
     />
     <title>{siteConfig.name} - {siteConfig.title}</title>
+
+    <!-- Structured Data (JSON-LD Person Schema) -->
+    <script type="application/ld+json" is:inline>
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sanjay Km",
+        "jobTitle": "Full Stack Developer",
+        "url": "https://www.sanjaykm.com",
+        "image": "https://www.sanjaykm.com/favicon.svg",
+        "description": "Full Stack Developer specializing in React.js, Next.js, Django, FastAPI, DevOps automation (Jenkins, Docker, AWS), and Meta WhatsApp Business API integrations (Sanjay Flow).",
+        "address": [
+          {
+            "@type": "PostalAddress",
+            "addressLocality": "Kochi",
+            "addressRegion": "Kerala",
+            "addressCountry": "India"
+          },
+          {
+            "@type": "PostalAddress",
+            "addressLocality": "Bangalore",
+            "addressRegion": "Karnataka",
+            "addressCountry": "India"
+          }
+        ],
+        "knowsAbout": [
+          "JavaScript", "TypeScript", "Python", "React.js", "Next.js", "Vite", "Electron.js", 
+          "Node.js", "Express.js", "Django", "FastAPI", "REST APIs", "WebSockets", "MongoDB", 
+          "PostgreSQL", "Firebase", "Redux", "Zustand", "Tailwind CSS", "Material UI", 
+          "ShadCN UI", "Jenkins", "n8n", "Docker", "AWS", "S3", "Nginx", "Linux", "Git", 
+          "Postman", "Meta WhatsApp Business API", "Biometric Authentication", "Active Directory", 
+          "CI/CD pipelines"
+        ],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Onebyzero Labs"
+        },
+        "sameAs": [
+          "https://github.com/sanjay-k-m",
+          "https://linkedin.com/in/sanjay-k-m",
+          "https://x.com/_sanjay_km"
+        ]
+      }
+    </script>
   </head>
   <body>
     <Header />
