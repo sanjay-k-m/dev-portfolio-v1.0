@@ -8,117 +8,30 @@ export const siteConfig = {
     linkedin: "https://linkedin.com/in/sanjay-k-m",
     twitter: "https://x.com/_sanjay_km",
     github: "https://github.com/sanjay-k-m",
-    resume:"1rlk_OThpTlNyQKc6mNqVjD53_n6y-rMa",
+    resume: "1rlk_OThpTlNyQKc6mNqVjD53_n6y-rMa",
   },
 
   aboutMe:
-    "I’m a full-stack developer specializing in the MERN stack. I build fast and scalable web apps using MongoDB, Express.js, React, and Node.js. I design clean, responsive UIs with Tailwind CSS, Material UI, and Bootstrap. Focused on real-time performance, API integrations, and modern deployments, I create digital experiences that are both functional and elegant.",
-  skills: [
-    "JavaScript",
-    "TypeScript",
-    "Python",
-    "React.js",
-    "Next.js",
-    "Vite",
-    "Electron.js",
-    "Node.js",
-    "Express.js",
-    "Django",
-    "FastAPI",
-    "REST APIs",
-    "WebSockets",
-    "MongoDB",
-    "PostgreSQL",
-    "Firebase",
-    "Redux",
-    "Zustand",
-    "Tailwind CSS",
-    "Material UI",
-    "ShadCN UI",
-    "Jenkins",
-    "n8n",
-    "Docker",
-    "AWS",
-    "S3",
-    "Nginx",
-    "Linux",
-    "Git",
-    "Postman",
-    "Meta WhatsApp Business API",
-    "Biometric Authentication",
-    "Active Directory",
-    "CI/CD pipelines",
-    "Bootstrap",
-    "JWT",
-    "Vercel",
-    "Netlify",
-    "Render",
-  ],
+    "I'm a Full Stack Developer who builds production-grade web applications and automated backend systems. I work across the stack — React.js and Next.js on the frontend, Node.js, Django, and FastAPI on the backend — with PostgreSQL, MongoDB, and Redis powering the data layer. I engineer CI/CD pipelines with Jenkins, manage AWS infrastructure, and integrate services like the Meta WhatsApp Business API and Razorpay. From freelance client deliveries to enterprise deployments, I focus on shipping reliable, scalable software.",
+
   projects: [
     {
-      name: "PoshWatch – Luxury Product Catalog (Freelance)",
+      name: "PoshWatch – Luxury E-Catalog with Admin Panel (Freelance)",
       description:
-        "A bespoke, high-performance digital catalog developed for a premium retailer in Kochi. This project focused on creating a sophisticated, minimalist interface to showcase luxury watches, wallets, and accessories.",
+        "A full-stack luxury product catalog built for a premium retailer in Kochi. Features a sophisticated, minimalist storefront for showcasing watches, wallets, and accessories, backed by a NestJS REST API with PostgreSQL. Includes a dedicated admin panel for real-time product, category, and inventory management.",
       link: "https://www.poshwatch.in",
       skills: [
         "React.js",
         "Next.js",
+        "NestJS",
+        "PostgreSQL",
         "Tailwind CSS",
-        "Responsive Design",
+        "REST APIs",
+        "Admin Panel",
         "UI/UX Design",
-        "Performance Optimization"
-      ]
-    },
-    {
-      name: "Trade Fusion Corporate Website (Freelance)",
-      description:
-        "A responsive corporate website built as a freelance project for a UAE-based trading company. Developed with Bootstrap. Includes a fully functional admin panel to manage products, categories, and images using Firebase Firestore and Storage. Integrated secure upload handling and bulk deletion. Hosted on Netlify with domain setup via GoDaddy.",
-      link: "https://tradefusionuae.com",
-      skills: [
-        "Bootstrap",
-        "Firebase",
-        "Firestore",
-        "Firebase Storage",
-        "Netlify",
-        "GoDaddy",
+        // "Graphql",
       ],
-    },
 
-    {
-      name: "Zylera Ecommerce",
-      description:
-        "A scalable e-commerce platform built using Next.js, Zustand, Tailwind CSS, and Sanity CMS. Integrated Razorpay for secure payments and deployed using serverless architecture on Vercel.",
-      link: "https://zylera-ecommerce.vercel.app/",
-      skills: [
-        "Next.js",
-        "React.js",
-        "Zustand",
-        "Tailwind CSS",
-        "Sanity CMS",
-        "Razorpay",
-        "Vercel",
-      ],
-    },
-    {
-      name: "React Admin Dashboard",
-      description:
-        "A real-time admin dashboard built using React.js. Features include dynamic UI components, user analytics, and data visualizations for better business insights.",
-      link: "https://react-admin-dashboard-rust-phi.vercel.app/",
-      skills: ["React.js", "Tailwind CSS", "Chart.js", "Realtime Data"],
-    },
-    {
-      name: "Realtime Chat App",
-      description:
-        "A full-stack real-time chat app using the MERN stack and WebSockets. Supports messaging, typing indicators, and persistent chat history with JWT-based authentication.",
-      link: "https://github.com/Sanjay-k-m/mern-realtime-chat-app-frontend",
-      skills: [
-        "MongoDB",
-        "Express.js",
-        "React.js",
-        "Node.js",
-        "WebSockets",
-        "JWT",
-      ],
     },
     {
       name: "HRMS Platform (Employee Management)",
@@ -135,7 +48,58 @@ export const siteConfig = {
         "RBAC",
       ],
     },
+    {
+      name: "Trade Fusion Corporate Website (Freelance)",
+      description:
+        "A responsive corporate website built as a freelance project for a UAE-based trading company. Developed with Bootstrap. Includes a fully functional admin panel to manage products, categories, and images using Firebase Firestore and Storage. Integrated secure upload handling and bulk deletion. Hosted on Netlify with domain setup via GoDaddy.",
+      link: "https://tradefusionuae.com",
+      skills: [
+        "Bootstrap",
+        "Firebase",
+        "Firestore",
+        "Firebase Storage",
+        "Netlify",
+        "GoDaddy",
+      ],
+    },
+    {
+      name: "Zylera Ecommerce",
+      description:
+        "A scalable e-commerce platform built using Next.js, Zustand, Tailwind CSS, and Sanity CMS. Integrated Razorpay for secure payments and deployed using serverless architecture on Vercel.",
+      link: "https://zylera-ecommerce.vercel.app/",
+      skills: [
+        "Next.js",
+        "React.js",
+        "Zustand",
+        "Tailwind CSS",
+        "Sanity CMS",
+        "Razorpay",
+        "Vercel",
+      ],
+    },
+    {
+      name: "Realtime Chat App",
+      description:
+        "A full-stack real-time chat app using the MERN stack and WebSockets. Supports messaging, typing indicators, and persistent chat history with JWT-based authentication.",
+      link: "https://github.com/Sanjay-k-m/mern-realtime-chat-app-frontend",
+      skills: [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "WebSockets",
+        "JWT",
+      ],
+    },
+    {
+      name: "React Admin Dashboard",
+      description:
+        "A real-time admin dashboard built using React.js. Features include dynamic UI components, user analytics, and data visualizations for better business insights.",
+      link: "https://react-admin-dashboard-rust-phi.vercel.app/",
+      skills: ["React.js", "Tailwind CSS", "Chart.js", "Realtime Data"],
+    },
   ],
+
   experience: [
     {
       company: "Onebyzero Labs, Kozhikode, Kerala",
@@ -145,8 +109,8 @@ export const siteConfig = {
         "Full-Stack Architecture: Lead the development and deployment of enterprise-grade applications, leveraging a diverse stack including React.js, Django, and FastAPI to deliver robust and scalable solutions.",
         "DevOps & Automation: Engineered and maintained automated CI/CD pipelines using Jenkins to streamline software delivery, optimize AWS EC2 infrastructure performance, and ensure consistent production reliability.",
         "System Integration: Architected complex backend systems with secure biometric integrations and advanced business logic to enhance security and operational efficiency across live products.",
-        "Infrastructure Management: Managed end-to-end cloud deployments, including DNS configuration, Nginx setup, and SSL implementation, ensuring high availability for company-wide production environments."
-      ]
+        "Infrastructure Management: Managed end-to-end cloud deployments, including DNS configuration, Nginx setup, and SSL implementation, ensuring high availability for company-wide production environments.",
+      ],
     },
     {
       company: "Domain Enroll",
@@ -160,30 +124,58 @@ export const siteConfig = {
         "Integrated auto-logout and user inactivity handling for enhanced security",
       ],
     },
-    // {
-    //   company: "Startup Inc",
-    //   title: "Full Stack Developer",
-    //   dateRange: "Jun 2020 - Dec 2021",
-    //   bullets: [
-    //     "Built and launched MVP product from scratch using React and Node.js",
-    //     "Implemented CI/CD pipeline reducing deployment time by 60%",
-    //     "Collaborated with product team to define technical requirements",
-    //   ],
-    // },
-    // {
-    //   company: "Digital Agency",
-    //   title: "Frontend Developer",
-    //   dateRange: "Aug 2018 - May 2020",
-    //   bullets: [
-    //     "Developed responsive web applications for 20+ clients",
-    //     "Improved site performance scores by 35% on average",
-    //     "Introduced modern JavaScript frameworks to legacy codebases",
-    //   ],
-    // },
   ],
+
+  skills: [
+    // Frontend
+    "React.js",
+    "Next.js",
+    "TypeScript",
+    "JavaScript",
+    "Vite",
+    "Electron.js",
+    "Tailwind CSS",
+    "Material UI",
+    "ShadCN UI",
+    "Bootstrap",
+    "Redux",
+    "Zustand",
+    // Backend
+    "Node.js",
+    "Express.js",
+    "Django",
+    "FastAPI",
+    "Python",
+    "REST APIs",
+    "WebSockets",
+    "JWT",
+    // Databases
+    "PostgreSQL",
+    "MongoDB",
+    "Firebase",
+    // DevOps & Infrastructure
+    "Docker",
+    "AWS",
+    "S3",
+    "Jenkins",
+    "CI/CD pipelines",
+    "Nginx",
+    "Linux",
+    "n8n",
+    // Integrations & Tools
+    "Meta WhatsApp Business API",
+    "Biometric Authentication",
+    "Git",
+    "Postman",
+    "Vercel",
+    "Netlify",
+    "Render",
+  ],
+
   education: [
     {
-      school: "St Aloysius Institute of Management & Information Technology (AIMIT)",
+      school:
+        "St Aloysius Institute of Management & Information Technology (AIMIT)",
       degree: "Master of Computer Applications",
       dateRange: "2022 - 2024",
       achievements: [
