@@ -1,0 +1,199 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { siteConfig } from "../config";
+import "../styles/global.css";
+
+const lastUpdated = "May 23, 2026";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content="Request deletion of your personal data associated with Sanjay Flow services. Learn how to submit a data erasure request and what information may be removed from our systems." />
+    <meta name="keywords" content="data deletion, Sanjay Flow data erasure, privacy rights, delete my data, WhatsApp Cloud API data removal, GDPR data request, user data deletion instructions" />
+    <link rel="canonical" href="https://www.sanjaykm.com/data-deletion" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.sanjaykm.com/data-deletion" />
+    <meta property="og:title" content="User Data Deletion — Sanjay Flow | Developer Automation Platform" />
+    <meta property="og:description" content="Instructions for requesting deletion of personal data associated with Sanjay Flow services. Submit your data erasure request and understand what data may be removed." />
+    <meta property="og:site_name" content="Sanjay Km Portfolio" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.sanjaykm.com/data-deletion" />
+    <meta property="twitter:title" content="User Data Deletion — Sanjay Flow | Developer Automation Platform" />
+    <meta property="twitter:description" content="Instructions for requesting deletion of personal data associated with Sanjay Flow services. Submit your data erasure request and understand what data may be removed." />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>User Data Deletion — Sanjay Flow | Developer Automation Platform</title>
+  </head>
+  <body class="bg-white text-gray-800 antialiased font-mono">
+    <Header />
+    
+    <main class="max-w-4xl mx-auto px-6 py-24 md:py-32">
+      <!-- Title -->
+      <div class="border-b border-gray-200 pb-8 mb-10" style={`--accent-color: ${siteConfig.accentColor}`}>
+        <div class="inline-flex items-center gap-x-2 bg-blue-50 border border-blue-200/50 px-3 py-1 mb-4 text-blue-800 text-xs font-bold uppercase tracking-wider">
+          <span class="h-1.5 w-1.5 bg-blue-600"></span>
+          Data Privacy & Compliance
+        </div>
+        <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight mb-3 uppercase font-display">
+          User Data Deletion
+        </h1>
+        <p class="text-xs font-bold text-gray-400">
+          LAST UPDATED: {lastUpdated}
+        </p>
+      </div>
+
+      <!-- Content Sections -->
+      <div class="space-y-12 text-sm md:text-base text-gray-600 leading-relaxed">
+        <section id="overview">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            01. Overview
+          </h2>
+          <p class="mb-4">
+            At <strong>Sanjay Flow</strong>, we respect your right to control the personal data associated with your use of our platform. In compliance with applicable data protection regulations and Meta Platform policies, we provide a straightforward process for requesting the deletion of your data from our systems.
+          </p>
+          <p>
+            This page outlines how you can submit a data deletion request, what information may be erased, and the expected timeframe for processing your request.
+          </p>
+        </section>
+
+        <section id="how-to-request">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            02. How to Request Data Deletion
+          </h2>
+          <p class="mb-4">
+            You may request the deletion of your personal data associated with Sanjay Flow services by contacting us directly via email. To help us process your request efficiently, please include the following in your message:
+          </p>
+          <ul class="list-disc pl-5 space-y-2 mb-4">
+            <li><strong>Subject Line:</strong> "Data Deletion Request"</li>
+            <li><strong>Full Name:</strong> The name associated with your account or interaction.</li>
+            <li><strong>Email Address:</strong> The email address used during registration or contact.</li>
+            <li><strong>Phone Number:</strong> The WhatsApp number associated with your interactions (if applicable).</li>
+            <li><strong>Description:</strong> A brief description of the data you would like deleted, or a request for complete account erasure.</li>
+          </ul>
+          <div class="border border-gray-200 bg-gray-50 p-6 text-sm">
+            <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Send Your Request To</p>
+            <a href="mailto:contact@sanjaykm.com" class="text-blue-600 hover:text-blue-700 font-semibold transition-colors text-base">contact@sanjaykm.com</a>
+          </div>
+        </section>
+
+        <section id="what-data-deleted">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            03. What Data May Be Deleted
+          </h2>
+          <p class="mb-4">
+            Upon receiving a valid data deletion request, the following categories of information may be permanently removed from our systems:
+          </p>
+          <ul class="list-disc pl-5 space-y-3 mb-4">
+            <li><strong>Account Information:</strong> Your name, email address, phone number, and any profile data stored in connection with your Sanjay Flow account.</li>
+            <li><strong>WhatsApp Messaging Data:</strong> Phone numbers, message logs, WhatsApp Flow submissions, and any interaction metadata processed through the Sanjay Flow application via the WhatsApp Cloud API.</li>
+            <li><strong>API & Integration Records:</strong> Access tokens, webhook configurations, API transaction logs, and integration settings associated with your account.</li>
+            <li><strong>Communication Records:</strong> Support correspondence, contact form submissions, and feedback records linked to your identity.</li>
+            <li><strong>Technical Logs:</strong> Server-side request logs, error reports, and diagnostic data that can be reasonably attributed to your usage.</li>
+          </ul>
+          <p class="font-semibold text-gray-900 border-l-2 border-blue-600 pl-3 py-1 bg-gray-50">
+            Note: Certain data may be retained where required by law, necessary for fraud prevention, or needed to resolve ongoing disputes. Anonymized or aggregated data that cannot identify you personally may also be retained for analytical purposes.
+          </p>
+        </section>
+
+        <section id="processing-timeframe">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            04. Processing Timeframe
+          </h2>
+          <p class="mb-4">
+            We aim to acknowledge all data deletion requests within <strong>48 hours</strong> of receipt. The complete processing and removal of your data from our active systems will typically be completed within <strong>30 calendar days</strong> from the date your request is verified.
+          </p>
+          <p class="mb-4">
+            In certain cases, the processing period may be extended if:
+          </p>
+          <ul class="list-disc pl-5 space-y-2 mb-4">
+            <li>Additional identity verification is required to protect against unauthorized deletion.</li>
+            <li>The request involves complex data relationships across multiple integrated services.</li>
+            <li>Legal or regulatory obligations require us to retain certain records for a defined period.</li>
+          </ul>
+          <p>
+            We will keep you informed of any delays and provide an estimated completion date.
+          </p>
+        </section>
+
+        <section id="verification">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            05. Identity Verification
+          </h2>
+          <p>
+            To protect the security of your data, we may request additional verification before processing a deletion request. This ensures that deletion requests are made by authorized individuals and not by unauthorized third parties. Verification may include confirming your email address, phone number, or other account-related credentials.
+          </p>
+        </section>
+
+        <section id="meta-data-deletion">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            06. Meta Platform & WhatsApp Data
+          </h2>
+          <p class="mb-4">
+            Sanjay Flow processes certain data through the Meta WhatsApp Business Platform. Please note the following:
+          </p>
+          <ul class="list-disc pl-5 space-y-2 mb-4">
+            <li>Data stored and managed by Meta Platforms, Inc. (such as WhatsApp message delivery records on Meta's servers) is subject to Meta's own data retention and deletion policies.</li>
+            <li>We can only delete data that is stored within Sanjay Flow's own systems and databases.</li>
+            <li>For data deletion requests related to data held directly by Meta, please refer to <a href="https://www.facebook.com/help/contact/deletion" class="text-blue-600 hover:text-blue-700 font-medium underline underline-offset-4 transition-colors" target="_blank" rel="noopener noreferrer">Meta's Data Deletion page</a>.</li>
+          </ul>
+        </section>
+
+        <section id="related-policies">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            07. Related Policies
+          </h2>
+          <p class="mb-4">
+            For more information about how Sanjay Flow handles your data, please review our related policy documents:
+          </p>
+          <ul class="list-disc pl-5 space-y-2 mb-4">
+            <li><a href="/privacy-policy" class="text-blue-600 hover:text-blue-700 font-medium underline underline-offset-4 transition-colors">Privacy Policy</a> — Details on data collection, processing, and protection practices.</li>
+            <li><a href="/terms" class="text-blue-600 hover:text-blue-700 font-medium underline underline-offset-4 transition-colors">Terms of Service</a> — Legal terms governing the use of Sanjay Flow services.</li>
+          </ul>
+        </section>
+
+        <section id="contact-information">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            08. Contact Information
+          </h2>
+          <p class="mb-4">
+            If you have questions about the data deletion process, need assistance submitting your request, or require further clarification, please contact us:
+          </p>
+          <div class="border border-gray-200 bg-gray-50 p-6 grid grid-cols-1 sm:grid-cols-2 gap-6 text-sm">
+            <div>
+              <p class="text-xs font-bold uppercase tracking-wider text-gray-400">Developer Name</p>
+              <p class="text-gray-900 font-semibold mt-1">Sanjay Km</p>
+            </div>
+            <div>
+              <p class="text-xs font-bold uppercase tracking-wider text-gray-400">Compliance Email</p>
+              <a href="mailto:contact@sanjaykm.com" class="text-blue-600 hover:text-blue-700 font-semibold transition-colors mt-1 block">contact@sanjaykm.com</a>
+            </div>
+            <div>
+              <p class="text-xs font-bold uppercase tracking-wider text-gray-400">Phone</p>
+              <a href="tel:+918547863419" class="text-gray-700 hover:text-gray-900 transition-colors mt-1 block font-medium">+91 8547863419</a>
+            </div>
+            <div>
+              <p class="text-xs font-bold uppercase tracking-wider text-gray-400">Website</p>
+              <a href="https://www.sanjaykm.com" class="text-blue-600 hover:text-blue-700 font-semibold transition-colors mt-1 block">https://www.sanjaykm.com</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <Footer />
+  </body>
+</html>
