@@ -16,31 +16,59 @@ export const siteConfig = {
   skills: [
     "JavaScript",
     "TypeScript",
+    "Python",
     "React.js",
     "Next.js",
+    "Vite",
+    "Electron.js",
     "Node.js",
     "Express.js",
+    "Django",
+    "FastAPI",
+    "REST APIs",
+    "WebSockets",
     "MongoDB",
+    "PostgreSQL",
     "Firebase",
-    "Python",
     "Redux",
     "Zustand",
     "Tailwind CSS",
     "Material UI",
     "ShadCN UI",
-    "Bootstrap",
-    "WebSockets",
-    "JWT",
-    "AWS",
+    "Jenkins",
+    "n8n",
     "Docker",
+    "AWS",
+    "S3",
+    "Nginx",
+    "Linux",
     "Git",
     "Postman",
+    "Meta WhatsApp Business API",
+    "Biometric Authentication",
+    "Active Directory",
+    "CI/CD pipelines",
+    "Bootstrap",
+    "JWT",
     "Vercel",
     "Netlify",
     "Render",
-    "Python",
   ],
   projects: [
+    {
+      name: "PoshWatch – Luxury Product Catalog (Freelance)",
+      description:
+        "A bespoke, high-performance digital catalog developed for a premium retailer in Kochi. This project focused on creating a sophisticated, minimalist interface to showcase luxury watches, wallets, and accessories.",
+      link: "https://www.poshwatch.in",
+      skills: [
+        "React.js",
+        "Next.js",
+        "Tailwind CSS",
+        "Responsive Design",
+        "UI/UX Design",
+        "Performance Optimization"
+      ]
+    },
     {
       name: "Trade Fusion Corporate Website (Freelance)",
       description:
@@ -109,6 +137,17 @@ export const siteConfig = {
     },
   ],
   experience: [
+    {
+      company: "Onebyzero Labs, Kozhikode, Kerala",
+      title: "Full Stack Developer",
+      dateRange: "Oct 2025 – Present",
+      bullets: [
+        "Full-Stack Architecture: Lead the development and deployment of enterprise-grade applications, leveraging a diverse stack including React.js, Django, and FastAPI to deliver robust and scalable solutions.",
+        "DevOps & Automation: Engineered and maintained automated CI/CD pipelines using Jenkins to streamline software delivery, optimize AWS EC2 infrastructure performance, and ensure consistent production reliability.",
+        "System Integration: Architected complex backend systems with secure biometric integrations and advanced business logic to enhance security and operational efficiency across live products.",
+        "Infrastructure Management: Managed end-to-end cloud deployments, including DNS configuration, Nginx setup, and SSL implementation, ensuring high availability for company-wide production environments."
+      ]
+    },
     {
       company: "Domain Enroll",
       title: "Junior Software Engineer (Intern)",

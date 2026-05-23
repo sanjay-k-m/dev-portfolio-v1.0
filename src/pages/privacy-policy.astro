@@ -1,0 +1,265 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { siteConfig } from "../config";
+import "../styles/global.css";
+
+const lastUpdated = "May 23, 2026";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content="Privacy Policy for Sanjay Km's portfolio and the Sanjay Flow Meta App. Learn how we handle and protect data processed via our WhatsApp Cloud API integrations." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Privacy Policy - Sanjay Km Portfolio & Sanjay Flow Meta App</title>
+  </head>
+  <body class="bg-white text-gray-800 antialiased font-mono">
+    <Header />
+    
+    <main class="max-w-4xl mx-auto px-6 py-24 md:py-32">
+      <!-- Title -->
+      <div class="border-b border-gray-200 pb-8 mb-10" style={`--accent-color: ${siteConfig.accentColor}`}>
+        <div class="inline-flex items-center gap-x-2 bg-blue-50 border border-blue-200/50 px-3 py-1 mb-4 text-blue-800 text-xs font-bold uppercase tracking-wider">
+          <span class="h-1.5 w-1.5 bg-blue-600"></span>
+          Developer & App Compliance
+        </div>
+        <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight mb-3 uppercase font-display">
+          Privacy Policy
+        </h1>
+        <p class="text-xs font-bold text-gray-400">
+          LAST UPDATED: {lastUpdated}
+        </p>
+      </div>
+
+      <!-- Content Sections -->
+      <div class="space-y-12 text-sm md:text-base text-gray-600 leading-relaxed">
+        <section id="introduction">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            01. Introduction
+          </h2>
+          <p class="mb-4">
+            Welcome to the Privacy Policy for the developer portfolio of <strong>Sanjay Km</strong> (accessible at <a href="https://www.sanjaykm.com" class="text-blue-600 hover:text-blue-700 font-medium underline underline-offset-4 transition-colors">https://www.sanjaykm.com</a>) and the associated Meta Application <strong>Sanjay Flow</strong>.
+          </p>
+          <p>
+            We are committed to maintaining the privacy and security of users who visit our portfolio website or interact with the "Sanjay Flow" application. Sanjay Flow is an integration tool utilizing the WhatsApp Cloud API to facilitate automated workflows, interactive forms, and WhatsApp Flows. This policy explains what data we collect, how it is processed, and our strict adherence to Meta Developer Policies.
+          </p>
+        </section>
+
+        <section id="scope">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            02. Scope of This Privacy Policy
+          </h2>
+          <p class="mb-4">
+            This Privacy Policy governs data processing activities on:
+          </p>
+          <ul class="list-disc pl-5 space-y-2 mb-4">
+            <li>The developer portfolio website (<a href="https://www.sanjaykm.com" class="text-blue-600 hover:text-blue-700 font-medium">https://www.sanjaykm.com</a>).</li>
+            <li>The <strong>Sanjay Flow</strong> Meta application and its associated WhatsApp Cloud API backend integrations.</li>
+          </ul>
+          <p>
+            When utilizing Sanjay Flow within specific business automation routines, we act as a <strong>Data Processor</strong> handling messaging payloads on behalf of our clients or respective integrations (who serve as <strong>Data Controllers</strong>). If you are an end-customer communicating with a WhatsApp Business account that uses the Sanjay Flow app, that business's primary privacy policy also applies to your interaction.
+          </p>
+        </section>
+
+        <section id="information-collected">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            03. Information We Collect
+          </h2>
+          <p class="mb-4">
+            To provide robust website browsing, API services, and messaging automation, we may collect or process:
+          </p>
+          <ul class="list-disc pl-5 space-y-3 mb-4">
+            <li><strong>User & Developer Contact Data:</strong> Names, email addresses, and phone numbers provided voluntarily via contact forms or registration screens.</li>
+            <li><strong>WhatsApp App Payload Data:</strong> Phone numbers, profiles, WhatsApp message logs, sender display names, metadata, and structured data inputs submitted through interactive WhatsApp Flows powered by the Sanjay Flow app.</li>
+            <li><strong>Website Diagnostics & Telemetry:</strong> IP addresses, browser types, device configurations, referring URL routes, and timestamps collected automatically from portfolio visitors.</li>
+            <li><strong>Technical API Logs:</strong> Request-response headers, API access tokens, transaction history, error reports, and database records necessary to debug integrations.</li>
+          </ul>
+        </section>
+
+        <section id="how-we-use-information">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            04. How We Use Information
+          </h2>
+          <p class="mb-4">
+            Information collected is processed solely for the following activities:
+          </p>
+          <ul class="list-disc pl-5 space-y-2 mb-4">
+            <li>Presenting developer projects, managing portfolio contact requests, and running demo tools on the website.</li>
+            <li>Routing WhatsApp message queries and processing WhatsApp Flows via the Sanjay Flow Meta App.</li>
+            <li>Auditing integration transactions, patching bugs, and protecting platform nodes against cyber threats and API abuse.</li>
+            <li>Responding to direct compliance queries or support requests sent to <a href="mailto:contact@sanjaykm.com" class="text-blue-600 hover:text-blue-700 font-medium transition-colors">contact@sanjaykm.com</a>.</li>
+          </ul>
+          <p class="mt-4 font-semibold text-gray-900 border-l-2 border-blue-600 pl-3 py-1 bg-gray-50">
+            No Data Sales: We do not sell, rent, trade, or share collected personal details or chat logs with third-party advertising companies or marketing databases under any circumstances.
+          </p>
+        </section>
+
+        <section id="whatsapp-meta-usage">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            05. WhatsApp Cloud API and Meta Platform Usage
+          </h2>
+          <p class="mb-4">
+            The Sanjay Flow Meta App integrates directly with Meta Platforms, Inc. services, utilizing the WhatsApp Business Platform and WhatsApp Cloud API infrastructure. All messaging configurations are built to adhere to Meta Developer Policies and WhatsApp Business Terms.
+          </p>
+          <p class="mb-4">
+            Our backend processes message webhooks and WhatsApp Flow payloads on behalf of integrating services. Access tokens and API secrets are stored within securely isolated and encrypted parameters. We only request the minimum required WhatsApp Business scopes necessary to run the configured flows.
+          </p>
+          <p>
+            Meta Platforms, Inc. stores and routes WhatsApp traffic in accordance with their standard business policies. Developers or businesses integrating the Sanjay Flow app should ensure their own solutions conform to the Meta developer specifications.
+          </p>
+        </section>
+
+        <section id="cookies-analytics">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            06. Cookies and Analytics
+          </h2>
+          <p class="mb-4">
+            We use essential cookies and lightweight privacy-respecting analytics tools to measure website load times and maintain session states. These cookies do not collect identifiable tracking data.
+          </p>
+          <p>
+            You can configure your browser settings to reject cookie files, though this may restrict access to interactive tools hosted on the portfolio.
+          </p>
+        </section>
+
+        <section id="third-party-services">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            07. Third-Party Services
+          </h2>
+          <p class="mb-4">
+            To keep our website and the Sanjay Flow app active, we utilize verified third-party vendors:
+          </p>
+          <ul class="list-disc pl-5 space-y-2 mb-4">
+            <li><strong>Cloud Hosting & DB Providers:</strong> Trusted platforms supplying serverless nodes and databases to host the portfolio and message routers.</li>
+            <li><strong>Meta Platforms (WhatsApp Cloud API):</strong> To transmit messaging payloads.</li>
+            <li><strong>Technical Monitors:</strong> Telemetry dashboards that track service health, page performance, and database latency.</li>
+          </ul>
+          <p>
+            These third-party vendors are prohibited from accessing or using personal data for any purpose other than executing operational services for us.
+          </p>
+        </section>
+
+        <section id="data-storage-retention">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            08. Data Storage and Retention
+          </h2>
+          <p class="mb-4">
+            We enforce strict data minimization controls:
+          </p>
+          <ul class="list-disc pl-5 space-y-2 mb-4">
+            <li><strong>Account & Contact details</strong> are kept only as long as you maintain a developer relationship or active contact session.</li>
+            <li><strong>WhatsApp message payloads and Flow answers</strong> are temporarily processed and cached solely to guarantee delivery to webhook endpoints, after which they are systematically deleted.</li>
+            <li><strong>Technical logs</strong> are automatically rotated and purged periodically.</li>
+          </ul>
+        </section>
+
+        <section id="data-security">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            09. Data Security
+          </h2>
+          <p class="mb-4">
+            We employ administrative, technical, and physical safeguards to prevent data leakage, unauthorized access, or modification:
+          </p>
+          <ul class="list-disc pl-5 space-y-2 mb-4">
+            <li>SSL/TLS encryption (HTTPS) across all web requests and API endpoints.</li>
+            <li>Encrypted databases and isolated server configs.</li>
+            <li>Restricted system access credentials.</li>
+          </ul>
+          <p>
+            While we apply security standard layers, no cloud connection is completely invulnerable. If a security incident affects user data, we will notify affected individuals promptly.
+          </p>
+        </section>
+
+        <section id="user-rights">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            10. User Rights and Data Requests
+          </h2>
+          <p class="mb-4">
+            Users are provided the following rights regarding their data:
+          </p>
+          <ul class="list-disc pl-5 space-y-2 mb-4">
+            <li><strong>Access:</strong> The right to request copies of the personal data we hold.</li>
+            <li><strong>Rectification:</strong> The right to correct inaccurate details.</li>
+            <li><strong>Erasure:</strong> The right to request the deletion of account details or contact records.</li>
+          </ul>
+          <p>
+            To submit an access or data deletion request, please email us at <a href="mailto:contact@sanjaykm.com" class="text-blue-600 hover:text-blue-700 font-medium underline underline-offset-4 transition-colors">contact@sanjaykm.com</a>.
+          </p>
+        </section>
+
+        <section id="childrens-privacy">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            11. Children's Privacy
+          </h2>
+          <p>
+            Our portfolio services and the Sanjay Flow app are designed for developers and businesses. We do not knowingly collect personal details from children under the age of 13. If you believe a child under 13 has submitted information to us, contact us immediately so we can purge the record.
+          </p>
+        </section>
+
+        <section id="international-transfers">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            12. International Data Transfers
+          </h2>
+          <p>
+            Sanjay Flow and our portfolio site databases may host or process data in cloud servers located outside of your home country. By using our integrations or accessing the website, you consent to this international transfer. We utilize Standard Contractual Clauses (SCCs) to ensure equivalent protection levels.
+          </p>
+        </section>
+
+        <section id="legal-compliance">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            13. Legal Compliance
+          </h2>
+          <p>
+            We may disclose data when legally required by court order, law enforcement request, or regulatory summons, or in good faith to protect intellectual property and defend the platform against fraud.
+          </p>
+        </section>
+
+        <section id="policy-changes">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            14. Changes to This Privacy Policy
+          </h2>
+          <p>
+            We reserve the right to modify this Privacy Policy. Any updates will be published directly on this page with an updated "Last Updated" timestamp at the top of the policy. We encourage you to check this page periodically.
+          </p>
+        </section>
+
+        <section id="contact-information">
+          <h2 class="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2 uppercase">
+            15. Contact Information
+          </h2>
+          <p class="mb-4">
+            For questions, general feedback, or to submit a data erasure request, please contact the developer:
+          </p>
+          <div class="border border-gray-200 bg-gray-50 p-6 grid grid-cols-1 sm:grid-cols-2 gap-6 text-sm">
+            <div>
+              <p class="text-xs font-bold uppercase tracking-wider text-gray-400">Developer Name</p>
+              <p class="text-gray-900 font-semibold mt-1">Sanjay Km</p>
+            </div>
+            <div>
+              <p class="text-xs font-bold uppercase tracking-wider text-gray-400">Compliance Email</p>
+              <a href="mailto:contact@sanjaykm.com" class="text-blue-600 hover:text-blue-700 font-semibold transition-colors mt-1 block">contact@sanjaykm.com</a>
+            </div>
+            <div>
+              <p class="text-xs font-bold uppercase tracking-wider text-gray-400">Developer Phone</p>
+              <a href="tel:+918547863419" class="text-gray-700 hover:text-gray-900 transition-colors mt-1 block font-medium">+91 8547863419</a>
+            </div>
+            <div>
+              <p class="text-xs font-bold uppercase tracking-wider text-gray-400">Portfolio Website</p>
+              <a href="https://www.sanjaykm.com" class="text-blue-600 hover:text-blue-700 font-semibold transition-colors mt-1 block">https://www.sanjaykm.com</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <Footer />
+  </body>
+</html>
